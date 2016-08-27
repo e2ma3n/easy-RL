@@ -1,0 +1,68 @@
+Programming and idea by : E2MA3N [Iman Homayouni]
+Gitbub : https://github.com/e2ma3n
+Email : e2ma3n@Gmail.com
+Documents : http://oslearn.ir/easy-RL/
+Demo : https://www.youtube.com/
+License : GPL v3.0
+html templates by http://startbootstrap.com/
+easy-RL v1.0 - Installer [Easy Reading Logs]
+
+
+Description :
+This program is written for easy reading proxy logs and at the moment supports from tinyproxy and later will supports from squid. You can see get and post request(URL) from proxy service in dynamic html pages by this program.this means that the program needs to web server to display html pages.
+
+
+Dependencies :
+whoami
+awk
+which
+sleep
+mkdir
+cp
+mv
+tac
+rm
+cat
+ls
+sed
+cut
+head
+tail
+grep
+sort
+uniq
+tr
+wc
+gzip
+
+
+Check dependencies :
+sudo chmod +x install.sh
+sudo ./install.sh -c
+
+
+Install :
+sudo chmod +x install.sh
+sudo ./install.sh -i
+
+
+Usage :
+sudo /opt/easy-RL_v1.0/easy-RL.sh
+open http://example.com/easy-RL/
+
+
+Uninstall :
+sudo rm -r /opt/easy-RL_v1.0/
+sudo rm -rf /YOUR-WEB-SERVER-DIRECTORY/easy-RL/
+
+
+Tested on :
+Debian 7
+Debian 8
+CentOS 6
+CentOS 7
+
+
+Notes :
+You have two choises : start manually or Starting up Script As a daemon
+You should run program as root
